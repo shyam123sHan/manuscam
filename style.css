@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.navbar{
+    width: 90%;
+    padding: 27px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-small;
+    
+
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: medium;
+}
+button{
+    width:120px;
+    padding: 15px;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.container1 {
+    width: 90%;
+    padding: 27px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+    
+}
+.header h1{
+    padding-top: 50px;
+    margin-top: 10%;
+    font-size: 60px;
+    font-weight: 600;
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+.header p{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+.about-col-2{
+    position: absolute;
+    right: 300px;
+    padding-left: 200px;
+    padding-top: 10px;
+    top: 200px;
+    border-radius: 500%;
+
+   
+   
+ 
+
+
+}
+.about-col-2 img{
+    border-radius: 20px;
+    
+   
+}
+
+.header button{
+    width:120px;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    border: 2px;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    background-color: greenyellow;
+    
+}
+.header button:hover{
+   
+        background-color: greenyellow;
+        color: black;
+        transition: 0.5s;
+        transform: translateY(-40%);
+}
+.header button{
+    position: absolute;
+    left: 100px;
+    bottom: 290px;
+
+}
+.safe10 {
+    text-align: center;
+    bottom: -100px;
+    right: 40px;
+    margin-top: 200px;
+    background-color: greenyellow;
+    padding: 5%;
+    
+
+   
+
+
+}
+.safe2 p{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 5%;
+    background-color: greenyellow;
+
+
+}
+
+
+
+.container2{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+    padding-top: 2%;
+}
+.scamguard p{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    font-family: 'poppins', sans-serif;
+}
+.scamguard h3{
+    font-size: 19px;
+    font-weight: 400px;
+    padding-top: 2%;
+    
+}
+.scamguard p{
+    font-size: 14px;
+    padding-top: 4px;
+    padding-top: 7px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+    justify-content: center;
+}
+
+.submit h3{
+    position: relative;
+    left: 620px;
+    font-size: medium;
+    top: -60px;
+}
+.receive h3{
+    position: relative;
+    left: 750px;
+    font-size: medium;
+    top: -125px;
+}
+
+.how h3{
+    position: relative;
+    left: 930px;
+    font-size: medium;
+    top: -173px;
+}
+
+.resources h3{
+    position: relative;
+    left: 1050px;
+    font-size: medium;
+    top: -239px;
+}
+.help h3{
+    position: relative;
+   left: 1200px;
+    font-size: medium;
+    top: -304px;
+}
+.submit p{
+    position: relative;
+    left: 620px;
+    
+    top: -60px;
+ 
+
+}
+.receive p{
+    position: relative;
+    left: 750px;
+    
+    top: -125px;
+    
+   
+    
+
+}
+.how p{
+   
+    position: relative;
+    left: 930px;
+    
+    top: -173px;
+    
+
+}
+.resources p{
+   
+    position: relative;
+    left: 1050px;
+   
+    top: -239px;
+}
+    
+
+
+.help p{
+    position: relative;
+    left: 1200px;
+   
+    top: -303px;
+   
+}
+.social-icons h3{
+    padding-top: 10%;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px)
+}
+
+.btn a{
+        text-decoration: none;
+        color: black;
+        font-size: 19px;
+        margin-top: 30px;
+        transition: 0.5s;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+
+}
+
+.btn a:hover{
+    color: #ff004f;
+
+}
+.contact{
+    position: relative;
+    top: -79px;
+}
+
+
+
+
+.submit p a{
+    text-decoration: none;
+    color:black;
+   
+    
+}
+.receive p a{
+    text-decoration: none;
+    color:black;
+   
+}
+.how p a{
+    text-decoration: none;
+    color:black;
+
+}
+.resources p a{
+    text-decoration: none;
+    color:black;
+}
+
+.help p a{
+    text-decoration: none;
+    color:black;
+}
+.social-icons a{
+    padding: 2%;
+    padding-top: 2%;
+}
